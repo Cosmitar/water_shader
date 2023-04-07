@@ -1,0 +1,49 @@
+{
+  "name": "react-three-vite",
+  "version": "1.0.1",
+  "description": "A simple React Three Fiber + Vite + Typescript starter with an import-ready CodeSandbox config.",
+  "keywords": [
+    "r3f",
+    "react",
+    "three",
+    "vite",
+    "starter",
+    "react three fiber",
+    "sandbox",
+    "codesandbox",
+    "typescript"
+  ],
+  "author": "Cosmitar (https://github.com/cosmitar)",
+  "repository": "github:cosmitar/react-three-vite-typescript",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/drei": "9.57.0",
+    "@react-three/fiber": "8.11.9",
+    "gltfjsx": "^6.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.150.1"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.11",
+    "@types/three": "^0.150.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "r3f-perf": "^7.1.2",
+    "typescript": "^5.0.3",
+    "vite": "^4.1.4",
+    "vite-plugin-glsl": "^1.1.2",
+    "vite-plugin-gltf": "^3.1.0"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "sandbox": "APP_ENV=sandbox vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
