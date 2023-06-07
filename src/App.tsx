@@ -27,9 +27,9 @@ export default function App() {
       {/* <Center>
       </Center> */}
       {/* <ScenePostDepth /> */}
-      {/* <OneSceneToRuleThemAll /> */}
+      <OneSceneToRuleThemAll />
       {/* <DistanceField /> */}
-      <Waves />
+      {/* <Waves /> */}
       <gridHelper />
       <OrbitControls makeDefault />
       <Monitor />
