@@ -6,6 +6,7 @@ import './styles.css'
 // @ts-ignore
 import OneSceneToRuleThemAll from './scenes/OneSceneToRuleThemAll/OneSceneToRuleThemAll'
 import DistanceField from './scenes/DistanceField/DistanceField'
+import Waves from './scenes/Waves/Waves'
 // @ts-ignore
 // import ScenePostDepth from './scenes/ScenePostDepth/ScenePostDepth'
 
@@ -21,15 +22,16 @@ export default function App() {
         renderer.shadowMap.type = PCFSoftShadowMap
       }}
     >
-      <color attach="background" args={['#202020']} />
-      <directionalLight position={[10, 10, 12]} intensity={1.} castShadow />
+      <color attach='background' args={['#202020']} />
+      <directionalLight position={[10, 10, 12]} intensity={1} castShadow />
       {/* <Center>
       </Center> */}
       {/* <ScenePostDepth /> */}
-      <OneSceneToRuleThemAll />
+      {/* <OneSceneToRuleThemAll /> */}
       {/* <DistanceField /> */}
+      <Waves />
       <gridHelper />
-      <OrbitControls makeDefault/>
+      <OrbitControls makeDefault />
       <Monitor />
     </Canvas>
   )
